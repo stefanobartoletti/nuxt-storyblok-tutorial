@@ -1,6 +1,6 @@
 <template>
     <header class="w-full h-24 bg-[#f7f6fd]">
-        <div class="container h-full mx-auto flex items-center justify-between">
+        <div class="container flex items-center justify-between h-full mx-auto">
             <NuxtLink to="/">
                 <h1 class="text-[#50b0ae] text-3xl font-bold">Storyblok Nuxt</h1>
             </NuxtLink>
@@ -30,6 +30,6 @@ headerMenu.value = data.story.content.header_menu
 
 <style scoped>
 nav a.router-link-active {
-  @apply underline underline-offset-4 decoration-4 decoration-[#50b0ae];
+    @apply underline underline-offset-4 decoration-4 decoration-[#50b0ae];
 }
 </style>
